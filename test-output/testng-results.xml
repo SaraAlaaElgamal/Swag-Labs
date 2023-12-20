@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-20T11:42:01 EET" name="All Test Suite" finished-at="2023-12-20T11:42:01 EET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All Test Suite -->
+  <suite started-at="2023-12-20T11:41:27 EET" name="All Test Suite (0)" finished-at="2023-12-20T11:42:01 EET" duration-ms="34685">
+    <groups>
+    </groups>
+    <test started-at="2023-12-20T11:41:27 EET" name="Add Products To Cart" finished-at="2023-12-20T11:41:52 EET" duration-ms="25271">
+      <class name="testcases.TC02_Products">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Products@3cee53dc]" started-at="2023-12-20T11:41:27 EET" name="setupDriver" finished-at="2023-12-20T11:41:31 EET" duration-ms="4132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="AddProductsToCart_P()[pri:1, instance:testcases.TC02_Products@3cee53dc]" started-at="2023-12-20T11:41:31 EET" name="AddProductsToCart_P" description="Add Products To Cart" finished-at="2023-12-20T11:41:51 EET" duration-ms="20153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductsToCart_P -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TC02_Products@3cee53dc]" started-at="2023-12-20T11:41:51 EET" name="closeDriver" finished-at="2023-12-20T11:41:52 EET" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testcases.TC02_Products -->
+    </test> <!-- Add Products To Cart -->
+    <test started-at="2023-12-20T11:41:52 EET" name="Add Random Products To Cart" finished-at="2023-12-20T11:42:01 EET" duration-ms="9398">
+      <class name="testcases.TC02_Products">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Products@4682eba5]" started-at="2023-12-20T11:41:52 EET" name="setupDriver" finished-at="2023-12-20T11:41:53 EET" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="AddRandomProductsToCart_P()[pri:2, instance:testcases.TC02_Products@4682eba5]" started-at="2023-12-20T11:41:53 EET" name="AddRandomProductsToCart_P" description="Add Random Products To Cart" finished-at="2023-12-20T11:42:01 EET" duration-ms="8033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRandomProductsToCart_P -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TC02_Products@4682eba5]" started-at="2023-12-20T11:42:01 EET" name="closeDriver" finished-at="2023-12-20T11:42:01 EET" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testcases.TC02_Products -->
+    </test> <!-- Add Random Products To Cart -->
+  </suite> <!-- All Test Suite (0) -->
+</testng-results>
